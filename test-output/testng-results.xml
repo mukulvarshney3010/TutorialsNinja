@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-27T18:30:05 IST" name="TutorialNinja Automation Suite" finished-at="2024-06-27T18:32:31 IST" duration-ms="146348">
+    <groups>
+    </groups>
+    <test started-at="2024-06-27T18:30:05 IST" name="TutorialNinja Tests" finished-at="2024-06-27T18:32:31 IST" duration-ms="146348">
+      <class name="com.tutorialsninja.qa.testcases.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:30:47 IST" name="setup" finished-at="2024-06-27T18:30:53 IST" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:30:53 IST" name="verifySearchWithValidProduct" finished-at="2024-06-27T18:30:55 IST" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:30:55 IST" name="close" finished-at="2024-06-27T18:30:58 IST" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:30:58 IST" name="setup" finished-at="2024-06-27T18:31:04 IST" duration-ms="5502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:31:04 IST" name="verifySearchWithInvalidProduct" finished-at="2024-06-27T18:31:09 IST" duration-ms="5659" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NO product Search message is not displayed expected [abcd] but found [There is no product that matches the search criteria.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NO product Search message is not displayed expected [abcd] but found [There is no product that matches the search criteria.]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.tutorialsninja.qa.testcases.Search.verifySearchWithInvalidProduct(Search.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:31:12 IST" name="close" finished-at="2024-06-27T18:31:15 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141]" started-at="2024-06-27T18:31:15 IST" name="verifySearchWithoutAnyProduct" finished-at="2024-06-27T18:31:15 IST" depends-on-methods="com.tutorialsninja.qa.testcases.Search.verifySearchWithValidProduct, com.tutorialsninja.qa.testcases.Search.verifySearchWithInvalidProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Search.verifySearchWithoutAnyProduct()[pri:3, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Search.verifySearchWithoutAnyProduct()[pri:3, instance:com.tutorialsninja.qa.testcases.Search@5f9b2141] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Search -->
+      <class name="com.tutorialsninja.qa.testcases.Register">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:05 IST" name="setUp" finished-at="2024-06-27T18:30:13 IST" duration-ms="7628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields()[pri:1, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:13 IST" name="verifyRegisteringAnAccountWithMandatoryFields" finished-at="2024-06-27T18:30:15 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:15 IST" name="close" finished-at="2024-06-27T18:30:15 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:15 IST" name="setUp" finished-at="2024-06-27T18:30:24 IST" duration-ms="8417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountByProvidingAllFields()[pri:2, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:24 IST" name="verifyRegisteringAccountByProvidingAllFields" finished-at="2024-06-27T18:30:26 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:26 IST" name="close" finished-at="2024-06-27T18:30:26 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:26 IST" name="setUp" finished-at="2024-06-27T18:30:32 IST" duration-ms="6018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:3, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:32 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-06-27T18:30:33 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:33 IST" name="close" finished-at="2024-06-27T18:30:34 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:34 IST" name="setUp" finished-at="2024-06-27T18:30:46 IST" duration-ms="12881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingDetails()[pri:4, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:46 IST" name="verifyRegisteringAccountWithoutFillingDetails" finished-at="2024-06-27T18:30:47 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingDetails -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tutorialsninja.qa.testcases.Register@550ee7e5]" started-at="2024-06-27T18:30:47 IST" name="close" finished-at="2024-06-27T18:30:47 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Register -->
+      <class name="com.tutorialsninja.qa.testcases.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:16 IST" name="setUp" finished-at="2024-06-27T18:31:23 IST" duration-ms="6171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:23 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-06-27T18:31:24 IST" duration-ms="1569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mukul@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:24 IST" name="closeBrowser" finished-at="2024-06-27T18:31:24 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:24 IST" name="setUp" finished-at="2024-06-27T18:31:40 IST" duration-ms="15729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:40 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-06-27T18:31:42 IST" duration-ms="2251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mukul1@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:42 IST" name="closeBrowser" finished-at="2024-06-27T18:31:43 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:43 IST" name="setUp" finished-at="2024-06-27T18:31:48 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:48 IST" name="verifyLoginWithValidCredentials" data-provider="supplyTestData" finished-at="2024-06-27T18:31:50 IST" duration-ms="2073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mukul2@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:50 IST" name="closeBrowser" finished-at="2024-06-27T18:31:50 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:31:50 IST" name="setUp" finished-at="2024-06-27T18:32:00 IST" duration-ms="9884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginwithInvalidCredentials()[pri:2, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:00 IST" name="verifyLoginwithInvalidCredentials" finished-at="2024-06-27T18:32:02 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:02 IST" name="closeBrowser" finished-at="2024-06-27T18:32:02 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:02 IST" name="setUp" finished-at="2024-06-27T18:32:09 IST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInValidEmailAndValidPassword()[pri:3, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:09 IST" name="verifyLoginWithInValidEmailAndValidPassword" finished-at="2024-06-27T18:32:11 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:11 IST" name="closeBrowser" finished-at="2024-06-27T18:32:11 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:11 IST" name="setUp" finished-at="2024-06-27T18:32:23 IST" duration-ms="12365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:4, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:23 IST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2024-06-27T18:32:24 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:24 IST" name="closeBrowser" finished-at="2024-06-27T18:32:24 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:24 IST" name="setUp" finished-at="2024-06-27T18:32:30 IST" duration-ms="5741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutEmailandPassword()[pri:5, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:30 IST" name="verifyLoginWithoutEmailandPassword" finished-at="2024-06-27T18:32:31 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutEmailandPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@247d8ae]" started-at="2024-06-27T18:32:31 IST" name="closeBrowser" finished-at="2024-06-27T18:32:31 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Login -->
+    </test> <!-- TutorialNinja Tests -->
+  </suite> <!-- TutorialNinja Automation Suite -->
+</testng-results>

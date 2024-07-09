@@ -1,0 +1,74 @@
+TestNG---stands for testing next generation(or unit testing framework)
+TestNG is also called TDD(Test driven development)--basically used in agile methodologies.
+
+purpose(Advantages):-
+--designed test cases in a systematic way
+--Generate good html reports
+--Provide different annotations
+--We give priorities/sequence of the test cases 
+--dependency(i.e. one test case is depend on other test case)
+--grouping
+--data provider--execute same test case again and again multiple times(like login page where multiple times i have to use username and password)
+
+TestNG---open source and free  
+
+It is available in the JAR files.
+Testng is also called Java unit testing framework(only available or used in Java).
+
+
+Assertion-- It is a type of validation where we check the expected and actual result.
+
+
+<<<Execute the tests in paralle using TestNG>>>
+What is parallel execution
+Why do we need it
+How to perform it
+
+Sequential--one after the other.
+Parallel--side by side.
+
+when parallel=none and parallel=false in testNG.xml then test cases are execute in sequential order.
+when thread count=1 then test cases are run in sequential order.
+thread count should not be in negative otherwise it gives Illegal Argument Exception.
+
+SEQUENCE IN TESTNG.XML :--
+<SUITE>   
+  <TEST>    
+    <CLASSES>    
+        <CLASS>   
+            <METHOD>
+            in method tag we can use include tag and exclude tag that which method we have to run and which one not.
+            </METHOD>
+        </CLASS> 
+    </CLASSES>     
+  </TEST>        
+</SUITE>  
+
+Extent Reporter consists of following reporters:-
+1. ExtentSparkReporter
+2. ExtenthtmlReporter
+3. ExtentLoggerReporter
+4. ExtentEmailReporter etc.
+
+Extent Report consists of two part:-
+1. Spark Reporter---which consists of:-
+										1. set theme of the reports
+										2. Report Name
+										3. Document title
+										4. TimeStamp
+2. setSystemInfo---which consists of:-
+										1. Application URL
+										2. Browser Name
+										3. Operating System
+										4. Username
+										5. Java Version
+										6. Email Address
+										7. Password.
+										
+JENKINS--If we have to schedule running of our automation scripts at odd timings or when not available to run the script then we use Jenkins
+															OR
+		If we have to run script everyday at 11AM then we use Jenkins.			
+		
+Git--Git is a software which is used to move our code from local machines to cloud Repo
+GitHub--GitHub is a cloud Repo where all the code is store.																																	
+										

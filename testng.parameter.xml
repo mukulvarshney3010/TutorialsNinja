@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RoksaanAdmin ">
+  <test thread-count="5" name="Roksaan Admin Login">
+	  <parameter name="url" value="http://devadmin.roksaan.com/"></parameter> 
+	  <parameter name="emailid" value="admin@yopmail.com"></parameter>
+	  <parameter name="password" value="Qwerty@123"></parameter>
+	  
+	  <classes>
+		  <class name="testng.parameter.ParameterTest"></class>
+	  </classes>
+	   </test> <!-- Test -->
+</suite> <!-- Suite -->
